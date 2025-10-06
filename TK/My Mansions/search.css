@@ -1,0 +1,127 @@
+body {
+
+	font-family: Arial, sans-serif;
+	background-image: url('./orsrc43801.jpg');
+	overflow: hidden;
+
+}
+
+
+#search-input {
+
+	width: 50%;
+
+	padding: 10px;
+
+	font-size: 16px;
+
+	border: 1px solid #ccc;
+
+	border-radius: 5px;
+
+}
+
+
+#suggestions-list {
+
+	list-style: none;
+
+	padding: 0;
+
+	margin: 0;
+
+	border: 1px solid #ccc;
+
+	border-radius: 5px;
+
+	background-color: #f9f9f9;
+
+}
+
+
+#suggestions-list li {
+
+	padding: 10px;
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+
+#suggestions-list li:hover {
+
+	background-color: #ccc;
+
+	cursor: pointer;
+
+}
+.pic img{
+	border-radius: 10%;
+}
+.pic .name,
+.pic .address,
+.pic .cost{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+	position: relative;
+	top: 0;
+	filter: blur(20px);
+}
+#searchButton{
+	width: 70px;
+	height: 40px;
+	font-size: medium;
+	font-weight: bold;
+}
+@keyframes slide{
+	0%{
+		top: 0px;
+		opacity: 0;
+		filter: blur(20px);
+	}
+	100%{
+		top: 20px;
+		opacity: 1;
+		filter: blur(0);
+	}
+}
+.slide{
+	animation: slide 1s linear 1 forwards;
+}
+#prev,#next{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	position: relative;
+	top: 60px;
+	left: 50%;
+	font-weight: bold;
+	background: transparent;
+	border: black solid 1px;
+	opacity: 0;
+}
+header{
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    font-size: 12px;
+}
+header a{
+    margin-right: 40px;
+}
