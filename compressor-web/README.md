@@ -1,1 +1,1 @@
-These are the compressor webpage code files
+This is a basic web app I made using HTML, CSS and JS code to allow the user to compress image, video content and zip files. It integrates the ffmpeg and JSZip libraries for the compression and zipping of files
